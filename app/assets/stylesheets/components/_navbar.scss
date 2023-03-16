@@ -1,13 +1,17 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 200px;
-
+@media screen and (min-width:777px){
+  .nav-link {
+    padding:18px 0;
+    min-width:120px;
+    font-size:x-large;
+    color: white;
+  }
+  .nav-link:hover {
+    color: #ED8B00;
+  }
+  .nav-item {
+    padding-inline: 25px;
+  }
+  .navbar {
+    padding: 0
+  }
 }

@@ -1,6 +1,12 @@
 // Specific CSS for your home-page
+body {
+  background-image: url(https://res.cloudinary.com/dwvsbgwap/image/upload/v1678153098/portnice_ybbq6a.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
 .accroche {
   display: flex;
-  color: midnightblue;
+  color: white;
   justify-content: center;
 }
