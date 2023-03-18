@@ -11,7 +11,9 @@ export default class extends Controller {
 
     this.map = new mapboxgl.Map({
       container: this.element,
-      style: "mapbox://styles/mapbox/streets-v10"
+      style: "mapbox://styles/mapbox/streets-v10",
+      center: [1.8883335, 46.603354],
+      zoom: 5
     })
 
 

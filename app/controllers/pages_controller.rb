@@ -10,7 +10,7 @@ class PagesController < ApplicationController
     @markers = @coffees.geocoded.map do |coffee|
       {
         lat: coffee.latitude,
-        lng: coffee.longitude,
+        lng: coffee.longitude
       }
     end
   end
