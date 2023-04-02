@@ -7,9 +7,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
   padding: 0px 50px;
   color: white;
+  // pour avoir le footer au dessus du contenu
+  z-index: 9999;
+}
+
+.footer-copyright{
+  font-size: small;
 }
 .footer-links {
   display: flex;
